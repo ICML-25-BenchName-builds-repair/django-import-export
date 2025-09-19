@@ -2,3 +2,5 @@
 exclude = build,.git,.tox
 extend-ignore = E203
 max-line-length = 88
+per-file-ignores =
+    tests/core/tests/test_resources/test_resources.py:F401
